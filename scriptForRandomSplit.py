@@ -26,15 +26,3 @@ for folder in folderList:
     for fname in remaining:
         shutil.move(os.path.join(dirpath, fname), testDirectory)
     
-        
- 
-    
-'''   
-os.mkdir('C:\\Users\\Lorenzo\\Documents\\Didattica Uni\\ArtificialIntelligenceRobotics\\Primo anno\\MachineLearning\\ObjectClassificationHomework\\randtrain\\' +folder)
-    os.mkdir('C:\\Users\\Lorenzo\\Documents\\Didattica Uni\\ArtificialIntelligenceRobotics\\Primo anno\\MachineLearning\\ObjectClassificationHomework\\randtest\\' +folder)
-    
-    dirpath = 'C:\\Users\\Lorenzo\\Documents\\Didattica Uni\\ArtificialIntelligenceRobotics\\Primo anno\\MachineLearning\\ObjectClassificationHomework\\' + folder
-    trainDirectory = 'C:\\Users\\Lorenzo\\Documents\\Didattica Uni\\ArtificialIntelligenceRobotics\\Primo anno\\MachineLearning\\ObjectClassificationHomework\\randtrain\\' +folder
-    testDirectory = 'C:\\Users\\Lorenzo\\Documents\\Didattica Uni\\ArtificialIntelligenceRobotics\\Primo anno\\MachineLearning\\ObjectClassificationHomework\\randtest\\' +folder
-
-'''
